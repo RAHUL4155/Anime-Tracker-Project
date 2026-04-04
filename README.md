@@ -2,7 +2,7 @@
 
 Anime Tracker is a feature-rich, local-first web application built with [Vue.js 3](https://vuejs.org/) and Vite that helps you track your anime watching progress, discover new series, and manage episode reminders.
 
-## 🚀 Features
+##  Features
 
 *   **Personal Anime List**: Manage your anime collection with statuses (Watching, Completed, Plan to Watch, On Hold, Dropped).
 *   **Search & Discovery**: Integrated with [Jikan API (MyAnimeList)](https://jikan.moe/) to search for any anime.
@@ -14,7 +14,7 @@ Anime Tracker is a feature-rich, local-first web application built with [Vue.js 
 *   **Theming**: Built-in Dark Mode and Light Mode.
 *   **Personal Notes**: Add private notes to any anime entry.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 *   **Framework**: Vue.js 3 (Composition API)
 *   **Build Tool**: Vite
@@ -22,7 +22,7 @@ Anime Tracker is a feature-rich, local-first web application built with [Vue.js 
 *   **API**: Jikan API v4
 *   **Persistence**: LocalStorage
 
-## 📦 Installation
+##  Installation
 
 1.  Clone the repository:
     ```bash
@@ -42,16 +42,16 @@ Anime Tracker is a feature-rich, local-first web application built with [Vue.js 
 
 4.  Open your browser and visit: `http://localhost:3000`
 
-## 📝 Usage
+##  Usage
 
 *   **Adding Anime**: Go to the 'Discover' tab, search for an anime, and click 'Add to My Anime'.
 *   **Updating Progress**: Use the '+' and '-' buttons on cards in 'My Anime List' to update episode counts.
 *   **Data Backup**: Click 'Export Data' in the header to get a JSON string of your entire library. Save this safely!
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
