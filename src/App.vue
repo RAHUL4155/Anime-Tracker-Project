@@ -171,7 +171,7 @@ const updateWatchedEpisodes = (anime, value) => {
     anime.total_episodes === 'Unknown' ? 
     value : 
     Math.min(value, anime.total_episodes)
-  ); // <-- Missing closing parenthesis was causing the error
+  ); 
 
   // Update start date if this is the first episode watched
   if (anime.watched_episodes === 0 && newValue > 0) {
@@ -371,7 +371,7 @@ onMounted(() => {
   <main>
     <center><h1 style="color: #1e88e5; font-family: 'Comic Sans MS', 'Segoe UI', cursive;">Anime Tracker</h1></center>
 
-    <!-- Theme Toggle and Utility Buttons -->
+    
     <div class="header-controls">
       <div class="theme-toggle">
         <label class="switch">
