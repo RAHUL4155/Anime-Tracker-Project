@@ -36,6 +36,12 @@ Start the development server:
 npm run dev
 ```
 
+For a production build:
+
+```bash
+npm run build
+```
+
 Then open the local address shown in the terminal.
 
 ## How to use
@@ -44,7 +50,12 @@ Then open the local address shown in the terminal.
 2. Add an anime to your list.
 3. Use the + and - buttons to update watched episodes.
 4. Use Reminders when you want to set an episode reminder.
-5. Export your data if you want to keep a backup.
+5. Use Notes and ratings to keep extra information about an anime.
+6. Export your data if you want to keep a backup.
+
+## Project notes
+
+More details about setup, features, data storage and reminders are available in the `docs` folder.
 
 ## If the project does not start
 
