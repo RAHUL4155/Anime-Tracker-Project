@@ -45,3 +45,9 @@ Then open the local address shown in the terminal.
 3. Use the + and - buttons to update watched episodes.
 4. Use Reminders when you want to set an episode reminder.
 5. Export your data if you want to keep a backup.
+
+## If the project does not start
+
+- Make sure Node.js and npm are installed.
+- Run `npm install` again if the packages are missing.
+- Stop another Vite server if the port is already being used.
