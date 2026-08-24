@@ -1,37 +1,30 @@
 # Anime Tracker
 
-Anime Tracker is a web application built with Vue.js 3 and Vite that helps you keep track of anime, episode progress and reminders.
+Anime Tracker is a Vue project for keeping track of anime, watching progress and reminders.
 
 ## Features
 
-- Add anime to your list
-- Search anime using the Jikan API
+- Add anime to a personal list
+- Search anime using Jikan API
 - Track watched episodes
-- Set anime status
-- Add ratings and notes
-- Filter the anime list
+- Set reminders
+- Filter anime by status, genre, year and rating
 - Dark mode and light mode
 - Export and import saved data
-- Episode reminders
+- Add notes and ratings
 
 ## Tech Stack
 
-- Vue.js 3
+- Vue 3
 - Vite
+- JavaScript
 - CSS
 - Jikan API
 - LocalStorage
 
-## Installation
+## Run the project
 
-Clone the repository and open the project folder:
-
-```bash
-git clone https://github.com/RAHUL4155/Anime-Tracker-Project.git
-cd Anime-Tracker-Project
-```
-
-Install dependencies:
+Install the packages:
 
 ```bash
 npm install
@@ -43,8 +36,12 @@ Start the development server:
 npm run dev
 ```
 
-Open the local address shown by Vite in the terminal.
+Then open the local address shown in the terminal.
 
-## Usage
+## How to use
 
-Use the Discover tab to search for anime and add it to your list. In My Anime List, you can update watched episodes, rating and notes. Your data is saved in the browser using LocalStorage.
+1. Open the Discover tab and search for an anime.
+2. Add an anime to your list.
+3. Use the + and - buttons to update watched episodes.
+4. Use Reminders when you want to set an episode reminder.
+5. Export your data if you want to keep a backup.
